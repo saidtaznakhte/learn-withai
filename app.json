@@ -1,0 +1,30 @@
+{
+    "expo": {
+      "name": "react-native-expo-starter",
+      "slug": "react-native-expo-starter",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "scheme": "myapp",
+      "userInterfaceStyle": "automatic",
+      "newArchEnabled": true,
+      "ios": {
+        "supportsTablet": true
+      },
+      "web": {
+        "bundler": "metro",
+        "output": "single"
+      },
+      "plugins": [
+        "expo-router",
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "L'application a besoin d'accéder à votre bibliothèque de photos pour vous permettre de sélectionner des images pour la transcription."
+          }
+        ]
+      ],
+      "experiments": {
+        "typedRoutes": true
+      }
+    }
+  }
